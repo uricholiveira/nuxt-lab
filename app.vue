@@ -48,7 +48,7 @@ onMounted(() => {
 
 </script>
 <template>
-  <div class="bg-gray-50 dark:bg-gray-950 h-screen">
+  <div class="bg-gray-50 dark:bg-gray-950">
     <NuxtLayout>
       <Navbar />
       <NuxtPage/>
