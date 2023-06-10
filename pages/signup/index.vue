@@ -7,7 +7,7 @@
     <section class="bg-gray-50 dark:bg-gray-950 -mt-20">
       <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
         <a href="#" class="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white">
-          <img src="assets/images/logo.svg" class="h-8 mr-3" alt="Logo"/>
+          <img src="~/assets/images/logo.svg" class="h-8 mr-3" alt="Logo"/>
           <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
         </a>
         <div
