@@ -134,7 +134,7 @@
               </div>
               <div class="flex-1 flex-wrap">
                 <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
-                  Pedido: #2
+                  Pedido: #3
                 </p>
                 <div class="text-sm text-gray-500 truncate dark:text-gray-400">
                   <p>Item #1: Em processamento...</p>
