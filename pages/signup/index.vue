@@ -47,8 +47,11 @@
               Registrar
             </button>
             <p class="text-sm font-light text-gray-500 dark:text-gray-400">
-              Já tem uma conta? <a href="#"
-                                   class="font-medium text-purple-600 hover:underline dark:text-purple-500">Entrar</a>
+              Já tem uma conta?
+              <NuxtLink to="/signin">
+                <span
+                   class="font-medium text-purple-600 hover:underline dark:text-purple-500">Entrar</span>
+              </NuxtLink>
             </p>
             <hr class="mt-2">
             <div class="grid items-center justify-center">

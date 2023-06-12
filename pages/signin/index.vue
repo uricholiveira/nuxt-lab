@@ -48,8 +48,8 @@ import Navbar from "~/components/navigation/Navbar.vue";
               Entrar
             </button>
             <p class="text-sm font-light text-gray-500 dark:text-gray-400">
-              Ainda não tem uma conta? <a href="#"
-                                          class="font-medium text-purple-600 hover:underline dark:text-purple-500">Registre-se</a>
+              Ainda não tem uma conta? <NuxtLink to="/signup"
+                                          class="font-medium text-purple-600 hover:underline dark:text-purple-500">Registre-se</NuxtLink>
             </p>
             <hr class="mt-2">
             <div class="grid items-center justify-center">

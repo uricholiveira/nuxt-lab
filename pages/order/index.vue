@@ -52,14 +52,14 @@
       <hr class="mt-4 -mb-2 mx6">
       <div class="flex-row">
         <div>
-          <div class="flex align-middle pl-6 pr-6 -mb-12">
-            <div>
-              <img class="h-auto max-w-[240px]" src="/img/xbox.png" alt="image description">
+          <div class="flex align-middle -mb-12">
+            <div class="py-8">
+              <img class="h-36 w-72 object-cover rounded-lg" src="/img/xbox.png" alt="image description">
             </div>
-            <div class="pt-10 pl-2 w-full pr-6">
+            <div class="pt-10 pl-6 w-full pr-6">
               <div class="flex justify-between font-bold text-xl">
                 <div>Xbox Game Pass</div>
-                <div>R$200</div>
+                <div>R$100</div>
               </div>
               <div class="font-medium text-lg">Pacote mensal</div>
             </div>
@@ -89,16 +89,16 @@
           </div>
         </div>
         <div>
-          <div class="flex align-middle pl-6 pr-6 -mb-12">
-            <div>
-              <img class="h-auto max-w-[240px]" src="/img/xbox.png" alt="image description">
+          <div class="flex align-middle -mb-12">
+            <div class="py-8">
+              <img class="h-36 w-72 object-cover rounded-lg" src="/img/valorant.png" alt="image description">
             </div>
-            <div class="pt-10 pl-2 w-full pr-6">
+            <div class="pt-10 pl-6 w-full pr-6">
               <div class="flex justify-between font-bold text-xl">
-                <div>Xbox Game Pass</div>
-                <div>R$200</div>
+                <div>Valorant</div>
+                <div>R$100</div>
               </div>
-              <div class="font-medium text-lg">Pacote mensal</div>
+              <div class="font-medium text-lg">RP: 999999</div>
             </div>
           </div>
           <div class="flex flex-nowrap justify-between pt-8">
@@ -172,11 +172,11 @@
       <hr class="mt-4 -mb-2 mx6">
       <div class="flex-row">
         <div>
-          <div class="flex align-middle pl-6 pr-6 -mb-12">
-            <div>
-              <img class="h-auto max-w-[240px]" src="/img/steam.png" alt="image description">
+          <div class="flex align-middle -mb-12">
+            <div class="py-8">
+              <img class="h-36 w-72 object-cover rounded-lg" src="/img/steam.png" alt="image description">
             </div>
-            <div class="pt-10 pl-2 w-full pr-6">
+            <div class="pt-10 pl-6 w-full pr-6">
               <div class="flex justify-between font-bold text-xl">
                 <div>Steam</div>
                 <div>R$200</div>
@@ -252,11 +252,11 @@
       <hr class="mt-4 -mb-2 mx6">
       <div class="flex-row">
         <div>
-          <div class="flex align-middle pl-6 pr-6 -mb-12">
-            <div>
-              <img class="h-auto max-w-[240px]" src="/img/steam.png" alt="image description">
+          <div class="flex align-middle -mb-12">
+            <div class="py-8">
+              <img class="h-36 w-72 object-cover rounded-lg" src="/img/steam.png" alt="image description">
             </div>
-            <div class="pt-10 pl-2 w-full pr-6">
+            <div class="pt-10 pl-6 w-full pr-6">
               <div class="flex justify-between font-bold text-xl">
                 <div>Steam</div>
                 <div>R$200</div>
