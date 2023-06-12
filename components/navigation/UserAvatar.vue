@@ -10,7 +10,7 @@
             id="user-menu-button" aria-expanded="false" data-dropdown-toggle="user-dropdown"
             data-dropdown-placement="bottom">
       <span class="sr-only">Open user menu</span>
-      <img class="w-8 h-8 rounded-full" src="/img/profile.png" alt="user photo">
+      <img class="w-10 h-10 rounded-full object-cover border-transparent transition ease-in-out hover:scale-105" src="/img/profile.png" alt="user photo">
     </button>
     <!-- Dropdown menu -->
     <div

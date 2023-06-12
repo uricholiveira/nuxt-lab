@@ -4,9 +4,11 @@
 
 <template>
   <div class="container mx-auto pt-24 pb-24 dark:text-white">
-    <div class="font-bold text-4xl">Seus pedidos</div>
-    <div class="font-medium text-lg">Verifique o status de pedidos recentes, gerencie devoluções e descubra produtos
-      semelhantes.
+    <div class="px-6 md:px-0">
+      <div class="font-bold text-4xl">Seus pedidos</div>
+      <div class="font-medium text-lg">Verifique o status de pedidos recentes, gerencie devoluções e descubra produtos
+        semelhantes.
+      </div>
     </div>
     <div
         class="w-full mt-12 p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
