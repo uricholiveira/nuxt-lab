@@ -1,15 +1,24 @@
 <script setup lang="ts">
 const route = useRoute();
 
+var showCart = true;
+
 const x = () => {
   switch (route.path) {
     case "/signin":
+      showCart = false;
       return [{description: "Registrar", to: "/signup"}]
     case "/signup":
+      showCart = false;
       return [{description: "Entrar", to: "/signin"}]
     case "/store":
-      return [{description: "Meus pedidos", to: "/signin"}, {description: "Perfil", to: "/signin"},]
+      showCart = true;
+      return [{description: "Meus pedidos", to: "/order"}, {description: "Perfil", to: "/signin"},]
+    case "/order":
+      showCart = true;
+      return [{description: "Loja", to: "/store"}, {description: "Perfil", to: "/signin"},]
     default:
+      showCart = false;
       return [{description: "Entrar", to: "/signin"}]
   }
 }
@@ -41,7 +50,7 @@ const x = () => {
               {{ item.description }}
             </NuxtLink>
           </li>
-          <li>
+          <li v-if="showCart">
             <button
                 class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-purple-700 md:p-0 dark:text-white md:dark:hover:text-purple-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
               <svg fill="currentColor" class="w-5 h-5" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">

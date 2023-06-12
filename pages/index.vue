@@ -17,8 +17,8 @@ const items = [{
 </script>
 
 <template>
-  <div class="h-screen">
-    <div class="container mx-auto text-center mt-24 dark:text-gray-200 align-middle justify-center">
+  <div class="container mx-auto">
+    <div class="text-center mt-72 dark:text-gray-200 align-middle justify-center">
       <div class="px-4 mb-24">
         <h1 class="text-6xl font-extrabold p-3 bg-gradient-to-r from-blue-700 via-purple-600 to-purple-400 text-transparent bg-clip-text">
           Polygon Store</h1>

@@ -2,6 +2,12 @@
 import {initFlowbite} from "flowbite";
 import Navbar from "~/components/navigation/Navbar.vue";
 
+useHead({
+  bodyAttrs: {
+    class: 'bg-gray-50 dark:bg-gray-950'
+  }
+})
+
 onMounted(() => {
   initFlowbite();
   var themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon');
@@ -48,7 +54,7 @@ onMounted(() => {
 
 </script>
 <template>
-  <div class="bg-gray-50 dark:bg-gray-950 h-full">
+  <div>
     <NuxtLayout>
       <Navbar />
       <NuxtPage/>
