@@ -35,6 +35,11 @@ const setupNavbar = (route: RouteLocation) => {
       menu.showUser = true;
       menu.showStore = true;
       break
+    case "/product":
+      menu.showCart = true;
+      menu.showUser = true;
+      menu.showStore = true;
+      break
     case "/order":
       menu.showCart = true;
       menu.showUser = true;

@@ -85,7 +85,9 @@ const items = [{
       <div class="w-full flex flex-wrap justify-center gap-4 mt-12">
         <div class="" v-for="item in filteredItems()">
           <div class="relative bg-white w-48 rounded-lg shadow-md border-transparent">
-            <img :src="'/img/'+item.icon+'.png'" alt="Produto" class="object-cover border-transparent rounded-lg transition ease-in-out hover:-translate-y-1 hover:scale-105">
+            <NuxtLink to="/product">
+              <img :src="'/img/'+item.icon+'.png'" alt="Produto" class="object-cover border-transparent rounded-lg transition ease-in-out hover:-translate-y-1 hover:scale-105">
+            </NuxtLink>
           </div>
         </div>
       </div>
